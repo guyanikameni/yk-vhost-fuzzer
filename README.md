@@ -34,7 +34,27 @@ These extra vhosts are often **not visible in the UI** and may not appear in DNS
 
 On Kali, you can install ffuf with:
 
+
+📦Installation
+
+Clone the repository and make the script executable:
+
+
+git clone https://github.com/guyanikameni/yk-vhost-fuzzer.git
+cd yk-vhost-fuzzer
+chmod +x yk-vhost-fuzzer.sh
+
+
+🚀 Usage
+
+./yk-vhost-fuzzer.sh <DOMAIN> <WORDLIST> [FS Filter]
+
+🧪 Example
+
+
+
 ```bash
 sudo apt update
 sudo apt install ffuf
 
+/yk-vhost-fuzzer.sh example.com 
