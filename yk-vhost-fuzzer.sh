@@ -37,17 +37,17 @@ show_help() {
     echo -e "${BOLD}Usage:${RESET} $0 <DOMAIN> <WORDLIST> [FS Filter]"
     echo
     echo -e "${BOLD}Arguments:${RESET}"
-    echo -e "  ${YELLOW}DOMAIN   ${RESET}- Target domain (ex: ${CYAN}SilverPlatter.thm${RESET})"
+    echo -e "  ${YELLOW}DOMAIN   ${RESET}- Target domain (ex: ${CYAN}example.com${RESET})"
     echo -e "  ${YELLOW}WORDLIST ${RESET}- Path to wordlist (ex: ${CYAN}/usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt${RESET})"
     echo -e "  ${YELLOW}FS Filter${RESET}- (optional) ffuf ${CYAN}-fs${RESET} value to filter by size (default: ${CYAN}0${RESET})"
     echo
     echo -e "${BOLD}Description:${RESET}"
     echo -e "  This script fuzzes ${YELLOW}virtual hosts (vhosts)${RESET} using ${CYAN}ffuf${RESET}."
-    echo -e "  It builds Host headers like: ${GREEN}FUZZ.DOMAIN${RESET} (ex: ${GREEN}admin.SilverPlatter.thm${RESET})."
+    echo -e "  It builds Host headers like: ${GREEN}FUZZ.DOMAIN${RESET} (ex: ${GREEN}admin.example.com${RESET})."
     echo -e "  URL is automatically set to: ${CYAN}http://DOMAIN${RESET}"
     echo
     echo -e "${BOLD}Example:${RESET}"
-    echo -e "  $0 ${CYAN}SilverPlatter.thm${RESET} ${CYAN}/usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt${RESET} ${CYAN}0${RESET}"
+    echo -e "  $0 ${CYAN}example.com${RESET} ${CYAN}/usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt${RESET} ${CYAN}0${RESET}"
     echo
 }
 
