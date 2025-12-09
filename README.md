@@ -2,7 +2,7 @@
 #
 # yk-vhost-fuzzer.sh
 # Simple vhost fuzzer wrapper around ffuf
-# Author: Youmbi Kameni Guyani (YK) - Pentester & Red Teamer
+# Author: Youmbi Kameni (YK) - Pentester & Red Teamer
 #
 
 # ---------- COLORS ----------
